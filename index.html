@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Scoring bowling</title>
+  <link rel="stylesheet" href="bootstrap.min.css" >
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <a href="#" class="navbar-brand">
+      Scoring Bowling
+    </a>
+  </nav>
+<!-- pt-5 es la separacion que tendra   -->
+<div class="container">
+  <div id="app" class="row pt-5">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Primera ronda</h4>
+        </div>
+        <form id="score-form1"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" name="quantity" id="Tiro1" placeholder="Tiro1" min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" name="quantity" id="Tiro2" placeholder="Tiro2" min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado1" readonly placeholder="Score1"  class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Segunda ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro3" placeholder="Tiro3"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro4" placeholder="Tiro4"  min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado2" readonly placeholder="Score2" name="" value="" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Tercera ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro5" placeholder="Tiro5" min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro6" placeholder="Tiro6"  min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado3" readonly placeholder="Score3" name="" value="" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Cuarta ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro7" placeholder="Tiro7"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro8" placeholder="Tiro8"  min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado4" readonly placeholder="Score4"  min="0" max="10" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Quinta ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro9" placeholder="Tiro9"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro10" placeholder="Tiro10"  min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado5" readonly placeholder="Score5" name="" value="" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Sexta ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro11" placeholder="Tiro11"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro12" placeholder="Tiro12"  min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado6" readonly placeholder="Score6" name="" value="" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Septima ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro13" placeholder="Tiro13"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro14" placeholder="Tiro14"  min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado7" readonly placeholder="Score7"  min="0" max="10" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Octava ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro15" placeholder="Tiro15"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro16" placeholder="Tiro16"  min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado8" readonly placeholder="Score8" name="" value="" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Novena ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro17" placeholder="Tiro17"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro18" placeholder="Tiro18" min="0" max="10" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado9" readonly placeholder="Score9" name="" value="" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-header">
+          <h4>Decima ronda</h4>
+        </div>
+        <form id="score-form"class="card-body" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <input type="number" id="Tiro19" placeholder="Tiro19"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro20" placeholder="Tiro20"  min="0" max="10" class="form-control">
+            </div>
+            <div class="col">
+              <input type="number" id="Tiro21" placeholder="Tiro21" name="" value="" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number" id="resultado10" readonly placeholder="Score10" name="" value="" class="form-control">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-3 pt-5 pl-5">
+      <input type="submit" id="button"  class="btn btn-primary" name="" value="Resultado">
+    </div>
+
+  </div>
+
+</div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
